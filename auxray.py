@@ -56,7 +56,7 @@ if "-h" in argv:
     '''
     Usage: python3 auxray.py -h    #查看帮助
            python3 auxray.py -r <filepath> -a    #开启主动模式进行批量扫描
-           python3 auxray.py -p    #开启xray的被动扫描模式
+           python3 auxray.py -p <port>   #开启xray的被动扫描模式
     '''
   )
 if "-r" in argv:ipaddr=argv[argv.index("-r")+1]    #获取-r 后面的参数值
