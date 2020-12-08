@@ -1,6 +1,7 @@
 # auxray
 一键实现xray批量扫描和被动扫描
 
+~~~python
 print(
     '''
     Usage: python3 auxray.py -h    #查看帮助
